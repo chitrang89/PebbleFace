@@ -1,5 +1,5 @@
 #include <pebble.h>
-#include "1.h"
+
   
   
 Window *g_window;
@@ -9,8 +9,9 @@ void window_load(Window *window)
   g_text_layer = text_layer_create(GRect(0, 0, 144, 168));
 text_layer_set_background_color(g_text_layer, GColorClear);
 text_layer_set_text_color(g_text_layer, GColorBlack);
-text_layer_set_text(g_text_layer, "Hi! I am Chitrang's Pebble Watch!");
 layer_add_child(window_get_root_layer(window), text_layer_get_layer(g_text_layer));//We will add the creation of the Window's elements here soon!
+  
+text_layer_set_text(g_text_layer, "Hi! I am Chitrang's Pebble Watch!");
 }
 
 void window_unload(Window *window)
