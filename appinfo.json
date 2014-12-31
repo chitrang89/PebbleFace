@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "chitrang89@gmail.com",
+    "longName": "1",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "1",
+    "uuid": "66fc0460-c03a-4f1e-b417-18ad12c27706",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
